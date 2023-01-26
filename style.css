@@ -1,0 +1,16 @@
+body{
+  background-color: black
+}
+
+.Title{
+  color: turquoise;
+  font-family: "Comic Sans MS";
+  font-size: 30px;
+  text-shadow: 2px 2px yellow;
+  text-align: center
+  
+}
+
+.Text{
+  font-family: "Comic Sans MS";
+}

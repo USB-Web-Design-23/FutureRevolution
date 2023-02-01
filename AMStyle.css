@@ -1,0 +1,57 @@
+body{
+  background-color: black
+}
+
+.Title{
+  color: turquoise;
+  font-family: "monospace;";
+  font-size: 30px;
+  text-shadow: 1px 1px yellow;
+  text-align: center
+  
+}
+
+.Paragraph{
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Bradley Hand";
+  text-align: center
+
+}
+
+ul{
+list-style-type: none;
+}
+
+
+.Video{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  bottom: -10%;
+  left: 35%;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+.pic{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  bottom: -10%;
+  right: 10%;
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  width: 350px;
+  height: 241.5px;
+}
+
+p{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: "Bradley Hand";
+  text-align: center
+}
+
+

@@ -1,0 +1,68 @@
+body{
+  background-color: aliceblue;
+}
+
+.Title{
+  color: turquoise;
+  font-family: "monospace;";
+  font-size: 30px;
+  text-shadow: 2px 2px darkcyan;
+  text-align: center
+  
+}
+
+
+.GenInfo{
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Bradley Hand";
+  text-align: left;
+  list-style-type: none;
+  border: 2px dashed black;
+  display: inline-block;
+}
+.tab{
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Bradley Hand";
+  text-align: center;
+  list-style-type: none;
+
+}
+
+ a{
+  text-decoration: none;
+  color: inherit;
+ }
+
+ a:hover{
+  color: red;
+}
+
+.Paragraph{
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Bradley Hand";
+  text-align: center
+}
+
+.pic{
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  width: 350px;
+  height: 241.5px;
+
+
+}
+
+.Video{
+  margin-right: 20px;
+  border-radius: 20px;
+  width: 350px;
+  height: 241.5px;
+  bottom: -10%;
+  right: 105%;
+
+}

@@ -1,0 +1,100 @@
+body{
+	background: lightgoldenrodyellow;
+}
+
+.Title{
+  color: turquoise;
+  font-family: "monospace";
+  font-size: 30px;
+  text-shadow: 2.5px 2.5px darkcyan;
+  text-align: center
+  
+}
+
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	background-color: opaque;
+	width: 50%;
+	text-align: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+	text-align: center;
+	font-family: "monospace;";
+
+}
+
+li a:hover {
+	background-color: ghostwhite;
+	color: black;
+}
+
+
+.d {
+	background-color: opaque;
+	width: 50%;
+	margin-left: 950px;
+    color: turquoise;
+    font-family: "monospace";
+    font-size: 40px;
+    text-shadow: 2.5px 2.5px darkcyan;
+
+}
+
+.dc {
+	display: none;
+	background-color: opaque;
+	color: deepskyblue;
+	font-family: "monospace;";
+
+}
+
+.d:hover .dc {
+	display: block;
+}
+
+ img{
+  margin-right: 20px;
+  border-radius: 20px;
+  width: 350px;
+  height: 241.5px;
+}
+
+iframe{
+  margin-right: 20px;
+  border-radius: 20px;
+  width: 350px;
+  height: 241.5px;
+}
+
+.CIS{
+  margin-right: 50%;
+  color: turquoise;
+  font-family: "monospace";
+  font-size: 20px;
+  text-shadow: 2.5px 2.5px darkcyan;
+  text-align: center
+}
+
+p{
+  margin-right: 50%;
+  text-align: center;
+  font-family: "monospace";
+  color: white;
+
+}
+
+.a2{
+  text-decoration: none;
+  color: white;
+}
+
+.a2:hover{
+   color:red;
+}

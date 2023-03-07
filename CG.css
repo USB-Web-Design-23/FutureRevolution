@@ -1,0 +1,87 @@
+.mtitle{
+	text-align: center;
+	font-family: Luminari;
+	color: #dedede;
+}
+
+.swords{
+	text-align: center;
+	font-family: Luminari;
+	color: #dedede;
+}
+
+.bows{
+	font-family: Luminari;
+	color: #dedede;
+	text-align: center;
+}
+
+.Shields{
+	text-align: center;
+	font-family: Luminari;
+	color: #dedede;
+}
+
+.Armor{
+	font-family: Luminari;
+	color: #dedede;
+	text-align: center;
+}
+
+.box{
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+   color:red;
+}
+
+.box2{
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	position: absolute;
+  	top: 360px;
+
+}
+
+.paragraph{
+	font-family: Luminari;
+	color: #dedede;
+	width: 50%;
+}
+
+.table{
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	position: absolute;
+	top: 360px;
+	right: 160px;
+	margin-right: 50px;
+	margin-left: 50px;
+	font-family: Luminari;
+	color: #dedede;
+
+}
+
+img{
+  text-align: right;
+
+}
+
+h3{
+	font-family: Luminari;
+	color: #dedede;
+}
+
+.box3{
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	position: absolute;
+	top: 900px;
+}

@@ -1,0 +1,157 @@
+@keyframes title {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+
+  }
+}
+
+
+
+.opt1{
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	position: absolute;
+	top: 53.6%;
+	left: 0%;
+	font-family: "Andale Mono"
+
+}
+.opt2{
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	position: absolute;
+	top: 53.6%;
+	left: 37.3%;
+	font-family: "Andale Mono"
+
+}
+
+.opt3{
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	position: absolute;
+	top: 53.6%;
+	left: 59.6%;
+	font-family: "Andale Mono"
+
+}
+
+
+.title{
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0%;
+	font-size: 32px;
+	text-align: center;
+	font-family: "Andale Mono";
+}
+
+.title span {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: title 3s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+   color:royalblue;
+}
+
+.img1{
+	position: absolute;
+	top: 56.6%;
+	right: 54.6%;
+}
+
+.part1{
+	position: absolute;
+    top: 56.6%;
+	left: 52.6%;
+	font-family: "Andale Mono";
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	text-align: center;
+}
+.part2{
+	position: absolute;
+    top: 120.6%;
+	right: 45.6%;
+	font-family: "Andale Mono";
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	text-align: center;
+
+}
+
+
+.img2{
+	position: absolute;
+	top: 120.6%;
+	left: 69.6%;
+}
+
+
+.menu {
+  position: absolute;
+  display: inline-block;
+  font-family: "Andale Mono";
+}
+
+	
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Andale Mono";
+}
+
+.button {
+  background-color: #cbf3f8;
+  color: black;
+  font-size: 16px;
+  backdrop-filter: blur(8px) brightness(0.8);
+  border: 2px solid black;
+  top: 0;
+  right: 0;
+  font-family: "Andale Mono";
+}
+
+.cite{
+	position: absolute;
+    top: 80.6%;
+	left: 32%;
+	font-family: "Andale Mono";
+	border: 2px solid black;
+	backdrop-filter: blur(8px) brightness(0.8);
+	text-align: center;
+}
+
+.menu:hover .menu-content {display: block;}
+
+.menu-content a:hover {background-color: #ddd;}
+
+
+
